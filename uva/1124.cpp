@@ -1,21 +1,22 @@
 #include<iostream>
 #include<string>
 #include<cstdio>
+#include<algorithm>
+#include<vector>
+#include <iomanip>
 
 using namespace std;
+
 
 int main(){
 
     // freopen("input.txt", "r", stdin);
     // freopen("output.txt", "w", stdout);
 
-    long long int n;
+    string str;
 
-    while(1){
-        cin>>n;
-        if(n<0){break;}
-
-        cout<<((n*(n+1))/2)+1<<endl;
+    while(getline(cin, str)){
+        cout<<str<<endl;
     }
 
     return 0;
