@@ -1,6 +1,10 @@
 *.o
 *.exe
-test.cpp
 input.txt
 output.txt
 .DS_STORE
+test.py
+test.c
+test.cpp
+output
+test
