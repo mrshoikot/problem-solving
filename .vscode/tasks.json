@@ -7,15 +7,15 @@
         {
             "type": "shell",
             "label": "g++.exe build active file",
-            "command": "C:\\Program Files (x86)\\CodeBlocks\\MinGW\\bin\\g++.exe",
+            "command": "/usr/bin/g++",
             "args": [
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                "${fileDirname}\\${fileBasenameNoExtension}"
             ],
             "options": {
-                "cwd": "C:\\Program Files (x86)\\CodeBlocks\\MinGW\\bin"
+                "cwd": "/usr/bin"
             },
             "problemMatcher": [
                 "$gcc"
@@ -24,24 +24,6 @@
                 "kind": "build",
                 "isDefault": true
             }
-        },
-        {
-            "type": "shell",
-            "label": "cpp.exe build active file",
-            "command": "C:\\Program Files (x86)\\CodeBlocks\\MinGW\\bin\\cpp.exe",
-            "args": [
-                "-g",
-                "${file}",
-                "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
-            ],
-            "options": {
-                "cwd": "C:\\Program Files (x86)\\CodeBlocks\\MinGW\\bin"
-            },
-            "problemMatcher": [
-                "$gcc"
-            ],
-            "group": "build"
         }
     ]
 }
